@@ -10,6 +10,11 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <script src="https://kit.fontawesome.com/d113bc53a8.js" crossorigin="anonymous"></script>
 
+    <style>
+    .card {
+      margin-bottom: 1.5rem;
+    }
+  </style>
 </head>
 
 <body>
@@ -40,7 +45,7 @@
                     <h1 class="modal-title fs-5" id="exampleModalLabel">Create a new post</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
-                  <div class="d-flex p-3 mt-3 justify-content-start">
+                  <div class="d-flex p-3 mt-3 mx-0 justify-content-start">
                   <p>Caption:</p>
                   </div>
                   <div class="d-flex">
@@ -84,7 +89,7 @@
       </div>
     </nav>
 
-    <!-- Tabs Navigation -->
+    <!-- Tabs Nav -->
     <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
       <li class="nav-item" role="presentation">
         <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button"
@@ -115,60 +120,73 @@
             <div class="col-4 mb-3">
               <img src="https://picsum.photos/id/239/400/200" class="card-img-top" alt="...">
             </div>
-            <div class="col-4">
+            <div class="col-4 mb-3">
               <img src="https://picsum.photos/id/240/400/200" class="card-img-top" alt="...">
             </div>
-            <div class="col-4">
+            <div class="col-4 mb-3">
               <img src="https://picsum.photos/id/241/400/200" class="card-img-top" alt="...">
             </div>
-            <div class="col-4">
+            <div class="col-4 mb-3">
               <img src="https://picsum.photos/id/242/400/200" class="card-img-top" alt="...">
+            </div>
+             <div class="col-4 mb-3">
+              <img src="https://picsum.photos/id/243/400/200" class="card-img-top" alt="...">
+            </div>
+            <div class="col-4 mb-3">
+              <img src="https://picsum.photos/id/244/400/200" class="card-img-top" alt="...">
+            </div>
+            <div class="col-4 mb-3">
+              <img src="https://picsum.photos/id/870/400/200?grayscale&blur=2" class="card-img-top" alt="...">
             </div>
           </div>
         </div>
       </div>
+      
 
 
       <!-- Second Tab Content -->
-      <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
-        <div class="container mt-4 justify-content-center d-flex">
-            <div class=" card" style="width: 20rem;">
-          <img src="https://picsum.photos/id/237/400/200" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Perrito</h5>
-            <p class="card-text fw-bold">23 likes</p>
-            <p>This is an example of a very good photo that you can post on instagram</p>
-          </div>
-      
-
-        <div class="card mx-auto" style="width: 20rem;">
-          <img src="https://picsum.photos/id/242/400/200" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Ciudad</h5>
-            <p class="card-text fw-bold">705 likes</p>
-            <p>This is an example of a very good photo that you can post on instagram</p>
-          </div>
-        </div>
-
-        <div class="card mx-auto" style="width: 20rem;">
-          <img src="https://picsum.photos/id/243/400/200" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Bosque</h5>
-            <p class="card-text fw-bold">14 likes</p>
-            <p>This is an example of a very good photo that you can post on instagram</p>
-          </div>
-        </div>
-
-        <div class="card mx-auto" style="width: 20rem;">
-          <img src="https://picsum.photos/id/244/400/200" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Playa</h5>
-            <p class="card-text fw-bold">14 likes</p>
-            <p>This is an example of a very good photo that you can post on instagram</p>
-          </div>
-        </div>
+<div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+  <div class="container mt-4 d-flex flex-column align-items-center">
+    
+    <div class="card mb-4" style="width: 20rem;">
+      <img src="https://picsum.photos/id/237/400/200" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Perrito</h5>
+        <p class="card-text fw-bold">23 likes</p>
+        <p>This is an example of a very good photo that you can post on instagram</p>
       </div>
     </div>
+
+    <div class="card mb-4" style="width: 20rem;">
+      <img src="https://picsum.photos/id/242/400/200" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Ciudad</h5>
+        <p class="card-text fw-bold">705 likes</p>
+        <p>This is an example of a very good photo that you can post on instagram</p>
+      </div>
+    </div>
+
+    <div class="card mb-4" style="width: 20rem;">
+      <img src="https://picsum.photos/id/243/400/200" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Bosque</h5>
+        <p class="card-text fw-bold">14 likes</p>
+        <p>This is an example of a very good photo that you can post on instagram</p>
+      </div>
+    </div>
+
+    <div class="card mb-4" style="width: 20rem;">
+      <img src="https://picsum.photos/id/244/400/200" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Playa</h5>
+        <p class="card-text fw-bold">14 likes</p>
+        <p>This is an example of a very good photo that you can post on instagram</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
 
 
 
